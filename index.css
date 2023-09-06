@@ -142,7 +142,7 @@
   	color: #000;
   	display: inline-block;
   	width: 697px;
-  	-webkit-text-stroke: 3px #8f8c8a;
+  	-webkit-text-stroke: 3px #000;
 }
 .home {
   	position: absolute;
