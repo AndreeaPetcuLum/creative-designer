@@ -8,9 +8,20 @@ function scrollToClass(className) {
 
 const sageata = document.getElementById('sageata');
 
-sageata.addEventListener('click', function(event) {
-  event.preventDefault();
-  const section = sageata.closest('section'); // găsește secțiunea părinte în care se află săgeata
-  section.scrollIntoView({ behavior: 'smooth' });
+
+const scrollButton = document.getElementById('sageata');
+
+
+scrollButton.addEventListener('click', (event) => {
+    event.preventDefault(); 
+
+    const sectionToScroll = document.querySelector('.home'); 
+
+    
+    if (sectionToScroll) {
+       
+        sectionToScroll.scrollIntoView({ behavior: 'smooth' }); 
+    }
 });
+
 
