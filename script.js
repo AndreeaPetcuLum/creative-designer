@@ -1,14 +1,15 @@
-function scrollToClass(className) {
-    event.preventDefault();
-    const element = document.querySelector('.' + className);
-    if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-    }
-}
+
 
 const scrollButton = document.getElementById('sageata');
 
 scrollButton.addEventListener('click', (event) => {
-    scrollToClass('home'); // Derulați la secțiunea cu clasa 'home'
+    event.preventDefault();
+    
+    const sectionToScroll = document.getElementById('home'); // Schimbați cu ID-ul secțiunii dorite
+    
+    if (sectionToScroll) {
+        sectionToScroll.scrollIntoView({ behavior: 'smooth' });
+    }
 });
+
 
