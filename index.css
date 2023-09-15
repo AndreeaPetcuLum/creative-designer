@@ -1517,3 +1517,8 @@
   	font-family: Bungee;
 }
 
+.cursor-hand:hover {
+    cursor: pointer; /* Schimbă cursorul la tip "mană" la hover */
+}
+
+
