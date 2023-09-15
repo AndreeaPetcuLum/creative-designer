@@ -1,3 +1,17 @@
+/* style.css */
+
+.projects-parent {
+    /* Stilurile pentru containerul principal */
+}
+
+.projects, .inspiration, .contact {
+    cursor: pointer; /* Setează cursorul pe pointer când este pe textul din aceste elemente */
+}
+
+.projects:hover, .inspiration:hover, .contact:hover {
+    /* Stilurile pentru textul atunci când cursorul este deasupra */
+    cursor: pointer; /* Poți menține acest lucru pentru a menține cursorul în formă de mână */
+}
 
 
 .logo-child {
